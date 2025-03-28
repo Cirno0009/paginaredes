@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso CSS</title>
+    <link rel="shortcut icon" href="./images/flan-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="¡Aprende CSS desde cero. Empecemos!">
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aprendecss.com">
+    <meta property="og:title" content="Aprende CSS desde cero">
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="og:image" content="https://aprendecss.com/images/css.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aprendecss.com/">
+    <meta property="twitter:title" content="Aprende CSS desde cero">
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="twitter:image" content="https://aprendecss.com/images/css.jpg">
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Curso CSS.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">¡Bienvenid@ a la página de Julio Villasante!</h1>
+            <p class="hero__paragraph">Cada día es una nueva oportunidad para descubrir algo increíble.</p>
+            <a href="#" class="cta">¡Empecemos!</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿Qué aprenderás en este curso?</h2>
+            <p class="about__paragraph">Los lunes deberían venir con un manual de instrucciones y una taza de café gratis. Si no, al menos que incluyan un botón de snooze en la vida real.</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/shapes.svg" class="about__icon">
+                    <h3 class="about__title">CSS Layouts</h3>
+                    <p class="about__paragrah">Mi plan de ejercicios consiste en estirarme en la cama, hacer un abdominal para levantarme y luego correr porque llego tarde. Fitness nivel experto.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/paint.svg" class="about__icon">
+                    <h3 class="about__title">Animaciones</h3>
+                    <p class="about__paragrah">Si los mosquitos pudieran leer, les dejaría una nota en la piel diciendo: ‘contiene veneno’. Solo para ver si se lo piensan dos veces antes de picarme.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/code.svg" class="about__icon">
+                    <h3 class="about__title">Sass</h3>
+                    <p class="about__paragrah">Dicen que el dinero no da la felicidad, pero nunca he visto a alguien llorando en una hamaca en las Maldivas con un cóctel en la mano.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Lucia Scarlet, <span class="testimony__course">estudiante de CSS.</span></h2>
+                        <p class="testimony__review">Hoy decidí comer saludable. Luego me di cuenta de que el chocolate proviene de una planta, y técnicamente, eso es ensalada. Misión cumplida.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Flandre Scarlet, <span class="testimony__course">estudiante de CSS.</span></h2>
+                        <p class="testimony__review">Soy un Gooboo Fan Leal.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes (FAQ)</h2>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué pasó con el WiFi?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+                        <p class="questions__show">El WiFi es como el amor: no lo ves, pero si desaparece, entras en pánico y empiezas a cuestionar tu existencia.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Ahorrar dinero?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+                        <p class="questions__show">Quería ahorrar dinero, pero luego vi una oferta irresistible y ahora tengo menos dinero y un inflador de globos que probablemente nunca usaré.</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
